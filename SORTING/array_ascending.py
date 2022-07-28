@@ -1,5 +1,5 @@
-arr = list(map(int,input("Enter list : ").split()));
-#       0 1  2  3  4 5
+arr = [3,2,5,6,1];
+#      0 1 2 3 4 
 len_arr = len(arr); # 6
 
 
@@ -10,6 +10,9 @@ for i in range(len_arr):
       arr[i],arr[j] = arr[j],arr[i]
 print(arr)
 
+# OUTPUT:
+# [1,2,3,5,6]
+# --------------------------------- #
 '''
 1. compare
 2. if arr[0] > arr[1]
@@ -24,4 +27,4 @@ print(arr)
       47 = 2
 
 '''
-  # 47 1 10 25 19 2
+# --------------------------------- #
